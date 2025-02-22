@@ -22,7 +22,7 @@ namespace TechLibrary.Api.Controllers
         {
             try
             {
-                var useCase = new RegisterUserCase();
+                var useCase = new RegisterUserUseCase();
 
                 var response = useCase.Execute(request);
 
