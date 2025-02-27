@@ -9,3 +9,4 @@ C:\Users\cimol\source\repos\TechLibrary\TechLibrary.Comunication\obj\Debug\net9.
 C:\Users\cimol\source\repos\TechLibrary\TechLibrary.Comunication\obj\Debug\net9.0\refint\TechLibrary.Comunication.dll
 C:\Users\cimol\source\repos\TechLibrary\TechLibrary.Comunication\obj\Debug\net9.0\TechLibrary.Comunication.pdb
 C:\Users\cimol\source\repos\TechLibrary\TechLibrary.Comunication\obj\Debug\net9.0\ref\TechLibrary.Comunication.dll
+C:\Users\cimol\source\repos\TechLibrary\TechLibrary.Comunication\obj\Debug\net9.0\TechLibrary.Comunication.sourcelink.json

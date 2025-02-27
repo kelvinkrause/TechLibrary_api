@@ -42,7 +42,10 @@ public class RegisterUserUseCase
     private void Validate(RequestUserJson request, TechLibraryDbContext dbContext)
     {
         var validator = new RegisterUserValidator();
-        var result = validator.Validate(request);
+        var result = validator.Validate(request); 
+        /*
+         * Entra na função do "Validate e executa as validações nos campos recebidos pelo request.
+         */
 
         bool existUsesWithEmail = dbContext.Users.Any(user => user.Email.Equals(request.Email));
 

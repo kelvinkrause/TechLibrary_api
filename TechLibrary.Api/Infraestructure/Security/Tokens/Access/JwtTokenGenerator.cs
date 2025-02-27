@@ -28,9 +28,11 @@ public class JwtTokenGenerator
 
         var tokenHandler = new JwtSecurityTokenHandler();
 
-        var securityToken = tokenHandler.CreateToken(tokenDescriptor); // Cria o token baseado no tokenDescriptor
+        var securityToken = tokenHandler.CreateToken(tokenDescriptor); 
+        // Cria o token baseado no tokenDescriptor
 
-        return tokenHandler.WriteToken(securityToken); // Descreve o token como um texto
+        return tokenHandler.WriteToken(securityToken); 
+        // Descreve o token como um texto
     }
 
     private SymmetricSecurityKey SecurityKey()

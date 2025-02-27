@@ -9,3 +9,4 @@ C:\Users\cimol\source\repos\TechLibrary\TechLibrary.Exception\obj\Debug\net9.0\T
 C:\Users\cimol\source\repos\TechLibrary\TechLibrary.Exception\obj\Debug\net9.0\refint\TechLibrary.Exception.dll
 C:\Users\cimol\source\repos\TechLibrary\TechLibrary.Exception\obj\Debug\net9.0\TechLibrary.Exception.pdb
 C:\Users\cimol\source\repos\TechLibrary\TechLibrary.Exception\obj\Debug\net9.0\ref\TechLibrary.Exception.dll
+C:\Users\cimol\source\repos\TechLibrary\TechLibrary.Exception\obj\Debug\net9.0\TechLibrary.Exception.sourcelink.json

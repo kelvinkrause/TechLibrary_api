@@ -1,16 +1,38 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using TechLibrary.Api.UseCases.Login.DoLogin;
+using TechLibrary.Comunication.Requests;
+using TechLibrary.Comunication.Responses;
+using TechLibrary.Exception;
 
-namespace TechLibrary.Api.Controllers
+namespace TechLibrary.Api.Controllers;
+
+[Route("[controller]")]
+[ApiController]
+public class LoginController : ControllerBase
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class LoginController : ControllerBase
+    [HttpPost]
+    public IActionResult DoLogin(RequestLoginJson request)
     {
-        public IActionResult DoLogin()
+        try
         {
-            // Parei aqui: 01:04:07 - A02
+            var useCase = new DoLoginUseCase();
+
+            var response = useCase.Execute(request);
+
+            return Ok(response);
+        }
+        catch (TechLibraryException ex)
+        {
+            return Unauthorized(new ResponseErrorMessageJson
+            {
+                Errors = ex.GetErrorMessage()
+            });
         }
 
+        //PAREI AQUI 01:25:00
+        
+        
     }
+
 }
